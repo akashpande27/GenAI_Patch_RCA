@@ -1,0 +1,7 @@
+[CBS Log - Server2]
+
+2026-04-14 14:23:45, Info                  CSI    00000c61 Begin executing advanced installer phase 38 index 2480 (sequence 2519)
+2026-04-14 14:23:46, Info                  CSI    00000c62 New component: [l:168 ml:169]'Microsoft-OneCore-SecureBootEncodeUEFI-Task...'
+2026-04-14 14:24:30, Error                 CSI    00000c63 (F) TNR: Failed to process advanced installer. [HRESULT = 0x800f0922 - CBS_E_INSTALLERS_FAILED]
+2026-04-14 14:24:31, Info                  CBS    Failed to finalize with error: 0x800f0922 [HRESULT = 0x800f0922 - CBS_E_INSTALLERS_FAILED]
+2026-04-14 14:24:55, Info                  CBS    Enabling LKG boot option

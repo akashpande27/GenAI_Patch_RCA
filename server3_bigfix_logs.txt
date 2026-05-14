@@ -1,0 +1,19 @@
+[BigFix Log - Server3]
+
+At 14:22:10 -0500 -
+  ActionLogMessage: (action:99123) starting action
+
+At 14:22:15 -0500 -
+  Command succeeded (evaluated true) continue if {exists file "__Download\KB5043051.msu"}
+
+At 14:22:20 -0500 -
+  Command succeeded prefetch KB5043051.msu
+
+At 14:22:25 -0500 -
+  Command succeeded extract KB5043051.msu
+
+At 14:24:55 -0500 -
+  Command failed (Exit Code=-2146498526) wait lock "C:\Windows\System32\wusa.exe" "__Download\KB5043051.msu" /quiet /norestart
+
+At 14:24:55 -0500 -
+  ActionLogMessage: (action:99123) ending action

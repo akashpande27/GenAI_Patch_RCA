@@ -1,0 +1,11 @@
+At 10:15:22 -0500 - 
+   ActionLogMessage: (action:12345) Action signature verified for Execution
+   ActionLogMessage: (action:12345) starting action
+At 10:15:23 -0500 - actionsite (http://BigFixServer:52311/cgi-bin/bfgather.exe/actionsite)
+   Command succeeded prefetch Windows8.1-KB2919355-x64.msu ...
+   Command succeeded extract Windows8.1-KB2919355-x64.msu
+   Command succeeded (evaluated true) continue if {exists file "__Download\Windows8.1-KB2919355-x64.msu"}
+At 10:18:45 -0500 - 
+   Command failed (Exit Code: 1603) wait __Download\Wusa.exe /quiet /norestart __Download\Windows8.1-KB2919355-x64.msu
+At 10:18:45 -0500 - actionsite (http://BigFixServer:52311/cgi-bin/bfgather.exe/actionsite)
+   ActionLogMessage: (action:12345) ending action

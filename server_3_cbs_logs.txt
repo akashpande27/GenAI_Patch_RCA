@@ -1,0 +1,14 @@
+[CBS Log - Server3]
+
+2026-04-21 14:22:45, Info                  CSI    00000c61 Begin executing advanced installer
+2026-04-21 14:23:10, Info                  CSI    00000c62 Processing component: Microsoft-Windows-ServicingStack
+
+2026-04-21 14:24:30, Error                 CSI    00000c63 (F) Failed execution of queue item Installer
+[HRESULT = 0x80073712 - ERROR_SXS_COMPONENT_STORE_CORRUPT]
+
+2026-04-21 14:24:31, Info                  CBS    Failed to process component store corruption
+
+2026-04-21 14:24:31, Error                 CBS    Failed to finalize execution
+[HRESULT = 0x80073712]
+
+2026-04-21 14:24:55, Info                  CBS    Reboot mark cleared
